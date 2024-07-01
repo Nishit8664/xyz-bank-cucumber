@@ -2,7 +2,7 @@ Feature: XYZ Bank Test
 
   Background: I am On Homepage
 
-  @sanity @regression
+  @sanity @smoke @regression
   Scenario Outline: Bank Manager should add customer successfully
     Given I click On Bank Manager Login Tab
     And I click On Add Customer Tab
